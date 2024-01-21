@@ -6,6 +6,7 @@ const Componente = props => ( //definição do componente
        <div className='Componente'>
           <h3>{props.nome}</h3> 
           <p>{props.email}</p>
+          <p>{props.children}</p>
           <p>{props.data.toString()}</p>
        </div> 
      );
